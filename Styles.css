@@ -1,56 +1,97 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Kuster</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+header {
+    background-color: #4f0303;
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-<body>
-    <header>
 
-        <div class="header-content">
-            <img src="Barbearia.jpg" alt="Barbearia Kuster Logo">
+}
+
+nav ul {
+    list-style: none;
+    display: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: #ff3700;
+}
+
+main {
+    padding: 1rem;
+}
 
 
-            <nav>
-                <ul>
-                    <div class="horizontal-list">
-                        <p><a href="#services">Serviços</a></p>
-                        <p><a href="#portfolio">Portfólio</a></p>
-                        <p><a href="#contact">Contato</a></p>
-                    </div>
-                </ul>
-            </nav>
-        </div>
+header img,
+footer {
 
-    </header>
-    <main>
-        <div id="services">
-            <h2>Nossos Serviços</h2>
-            <p>Barbearia voltada para o bem estar do cliente </p>
-        </div>
-        <div id="portfolio">
-            <h2>Portfólio</h2>
-            Exemplo do trabalho:
-            <div class="portfolio-item">
-                <img src="imagem3.jpeg" width="10%" height="auto">
-                <img src="imagem1.jpeg" width="10%" height="auto">
-                <img src="imagem2.jpeg" width="10%" height="auto">
+    display: block;
+    /* Imagem é exibida como um bloco */
+    margin: 0 auto;
+    /* Margem automática horizontal para centralizar a imagem */
+}
 
-                <!-- Adicione mais itens de portfólio aqui -->
-            </div>
-            <div id="contact">
-                <h2>Entre em Contato</h2>
-                <p>Para agendar um horário, entre em contato conosco...</p>
-            </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Barbearia Kuster</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+.header-content {
+    margin: 20px 0;
 
-</html>
+}
+
+.horizontal-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal-list p {
+    margin: 0;
+    /* Remova a margem padrão dos parágrafos */
+    padding: 0 159px;
+    /* Espaçamento entre os itens da lista */
+
+}
+
+.horizontal-list a {
+    text-decoration: navy;
+    color: white;
+}
+
+.horizontal-list a:hover {
+    color: #ff3300;
+}
+/* Estilos para o container das imagens */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos para cada item de portfólio */
+.portfolio-item {
+    width: 100%; /* Define a largura desejada para cada imagem */
+    margin: 5%; /* Adiciona uma margem entre as imagens */
+    
+}
+
+/* Estilos para o texto do portfólio */
+.portfolio-item p {
+    text-align: center; /* Centraliza o texto */
+}
