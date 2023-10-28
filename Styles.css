@@ -1,8 +1,8 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    margin: 10px; /* Corrija o valor da margem (adicionar "px") */
-    padding: 10px; /* Corrija o valor do preenchimento (adicionar "px") */
+    margin: 10px; 
+    padding: 10px; 
 }
 
 header {
@@ -12,17 +12,12 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "logo" "nav"; /* Adicione esta linha para definir as áreas do grid */
-    /* Remova as seguintes linhas, pois flex-direction e align-items não são necessários em um grid */
-    /* flex-direction: column; 
-    justify-content: center;
-    align-items: center; */
-    text-align: center; /* Remova a letra "d" a mais no final */
+    grid-template-areas: "logo" "nav"; 
 }
 
 nav ul {
     list-style: none;
-    /* Corrija o valor de display para "flex" em vez de "center" */
+    
     display: flex;
     gap: 1rem;
 }
@@ -34,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff3700; /* Corrija a cor de hover para #ff3700 */
+    color: #ff3700; 
 }
 
 main {
@@ -43,14 +38,14 @@ main {
 
 header img,
 footer {
-    display: block;
+    
     margin: 0 auto;
-    /* Remova a propriedade "display" do elemento <footer> */
+    
 }
 
 .header-content {
     margin: 40px;
-    /* Para espaçamento, é recomendável usar "margin" ao invés de "padding" no container */
+    
 }
 
 /* Estilos para o texto do portfólio */
