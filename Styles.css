@@ -9,7 +9,13 @@ header {
     background-color: brown;
     color: rgb(255, 255, 255);
     padding: 1rem;
-    d
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;d
 
 
 }
@@ -89,7 +95,7 @@ footer {
 }
 
 /* Estilos para o texto do portfólio */
-.portfolio-item p {
+.portfolio-item {
     text-align: center;
     /* Centraliza o texto */
 }
