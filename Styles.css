@@ -11,7 +11,7 @@ header {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto ;
+    grid-template-rows: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ footer {
 }
 
 .header-content {
-    margin: 40px ;
+    margin: 40px;
 
 }
 
@@ -76,6 +76,7 @@ footer {
 .horizontal-list a:hover {
     color: #ff3300;
 }
+
 /* Estilos para o container das imagens */
 .image-container {
     display: flex;
@@ -86,12 +87,15 @@ footer {
 
 /* Estilos para cada item de portfólio */
 .portfolio-item {
-    width: 100%; /* Define a largura desejada para cada imagem */
-    margin: 10%; /* Adiciona uma margem entre as imagens */
-    
+    width: 100%;
+    /* Define a largura desejada para cada imagem */
+    margin: 10%;
+    /* Adiciona uma margem entre as imagens */
+
 }
 
 /* Estilos para o texto do portfólio */
 .portfolio-item p {
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
+    /* Centraliza o texto */
 }
