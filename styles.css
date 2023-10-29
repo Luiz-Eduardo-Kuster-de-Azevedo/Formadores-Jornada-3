@@ -83,7 +83,7 @@ footer {
 /* Estilos para cada item de portfólio */
 .portfolio-item {
     width: 100%; /* Define a largura desejada para cada imagem */
-    margin: 5%; /* Adiciona uma margem entre as imagens */
+    margin: 0; /* Adiciona uma margem entre as imagens */
     
 }
 
