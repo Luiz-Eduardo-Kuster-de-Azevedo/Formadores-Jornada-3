@@ -11,10 +11,7 @@
     color: white;
     padding: 5px;
     display: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "logo" "nav"; 
-}
+    
 
 .nav ul {
     list-style: none;
