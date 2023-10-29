@@ -85,8 +85,8 @@ body {
   }
   
   #portfolio .content {
-    flex: 1; /* Expansão automática para ocupar o espaço disponível */
-    padding: 0 20px; /* Espaçamento horizontal entre o título e o parágrafo */
+    flex: 2; /* Expansão automática para ocupar o espaço disponível */
+    padding: 0 50px; /* Espaçamento horizontal entre o título e o parágrafo */
   }
   
   #portfolio h2 {
