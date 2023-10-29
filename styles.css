@@ -60,7 +60,7 @@ footer {
 
 .vertical-list p {
     margin: 0;    /* Remove a margem padrão dos parágrafos */
-    padding: 5; /* Espaçamento entre os itens da lista */
+    padding: 15; /* Espaçamento entre os itens da lista */
 
 }
 
