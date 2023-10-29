@@ -58,7 +58,7 @@ footer {
     flex-direction: row;
 }
 
-.horizontal-list p {
+.vertical-list p {
     margin: 0;    /* Remove a margem padrão dos parágrafos */
     padding: 0 50px; /* Espaçamento entre os itens da lista */
 
