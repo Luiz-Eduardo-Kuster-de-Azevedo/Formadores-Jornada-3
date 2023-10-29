@@ -44,10 +44,8 @@ main {
 header img,
 footer {
 
-    display: block;
-    /* Imagem é exibida como um bloco */
-    margin: 0 auto;
-    /* Margem automática horizontal para centralizar a imagem */
+    display: block;    /* Imagem é exibida como um bloco */
+    margin: 0 auto;    /* Margem automática horizontal para centralizar a imagem */
 }
 
 .header-content {
@@ -61,10 +59,8 @@ footer {
 }
 
 .horizontal-list p {
-    margin: 0;
-    /* Remova a margem padrão dos parágrafos */
-    padding: 0 159px;
-    /* Espaçamento entre os itens da lista */
+    margin: 0;    /* Remove a margem padrão dos parágrafos */
+    padding: 0 159px; /* Espaçamento entre os itens da lista */
 
 }
 
