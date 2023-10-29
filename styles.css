@@ -59,7 +59,7 @@ footer {
 }
 
 .horizontal-list p {
-    margin: 5;    /* Remove a margem padrão dos parágrafos */
+    margin: 0;    /* Remove a margem padrão dos parágrafos */
     padding: 0 50px; /* Espaçamento entre os itens da lista */
 
 }
