@@ -1,43 +1,43 @@
 /* Estilos gerais */
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0px; 
     padding: 0px;
     background-color: white; 
 }
 
-header {
+.header {
     background-color: ff3700;
     color: white;
-    padding: 1rem;
-    display: grid;
+    padding: 5px;
+    display: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "logo" "nav"; 
 }
 
-nav ul {
+.nav ul {
     list-style: none;
     
     display: flex;
     gap: 1rem;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: black;
     transition: color 0.5s;
 }
 
-nav a:hover {
+.nav a:hover {
     color: #ff3700; 
 }
 
-main {
+.main {
     padding: 1rem;
 }
 
-header img,
+.header img,
 footer {
     
     margin: 0 auto;
@@ -52,5 +52,5 @@ footer {
 
 /* Estilos para o texto do portfólio */
 .portfolio-item {
-    text-align: 20px #ff3700;
+    text-align:  #ff3700;
 }
