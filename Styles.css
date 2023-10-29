@@ -45,7 +45,7 @@ footer {
 }
 
 .header-content {
-    display: flex;
+    display: auto;
     flex-direction: column;
     align-items: center;
 }
