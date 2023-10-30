@@ -1,11 +1,11 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    margin: 10;
-    padding: 10;
-  }
-  
-  header {
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
     background-color: #4f0303;
     color: white;
     padding: 1rem;
@@ -15,85 +15,74 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 20px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Espaçamento entre os botões */
-  }
-  
-  nav a {
-    text-decoration: double;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
     color: white;
     transition: color 0.1s;
     display: block;
-    padding: 5px; /* Preenchimento para os botões */
-    background-color: #c03121; /* Cor de fundo dos botões */
+    padding: 5px;
+    background-color: #c03121;
     text-align: center;
-    border-radius: 50px; /* Borda arredondada */
-  }
-  
-  nav a:hover {
+    border-radius: 50px;
+}
+
+nav a:hover {
     color: #ff3700;
-  }
-  
-  main {
+}
+
+main {
     padding: 1rem;
-  }
-  
-  header img,
-  footer {
-    display: block; /* Imagem é exibida como um bloco */
-    margin: auto; /* Margem automática horizontal para centralizar a imagem */
-  }
-  
-  .header-content {
-    margin: 0px;
-  }
-  
-  .horizontal-list {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .vertical-list p {
-    margin: 10; /* Remove a margem padrão dos parágrafos */
-    padding: 10px; /* Espaçamento entre os itens da lista */
-  }
-  
-  .horizontal-list a {
-    text-decoration: navy;
+}
+
+header img,
+footer {
+    display: block;
+    margin: auto;
+}
+
+.header-content {
+    margin: 0;
+}
+
+.horizontal-list a {
+    text-decoration: none;
     color: white;
-  }
-  
-  .horizontal-list a:hover {
+}
+
+.horizontal-list a:hover {
     color: #ff3300;
-  }
-  /* Estilos para o container das imagens */
-  .image-container {
+}
+
+/* Estilos para o container das imagens */
+.image-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  /* Estilos para cada item de portfólio */
-  #portfolio {
-    display: center;
-    align-items: center; /* Alinhar verticalmente */
-  }
-  
-  #portfolio .content {
-    flex: 2; /* Expansão automática para ocupar o espaço disponível */
-    padding: 0 50px; /* Espaçamento horizontal entre o título e o parágrafo */
-  }
-  
-  #portfolio h2 {
-    margin: center; /* Remover margem padrão do título */
-  }
-  
-  #portfolio p {
-    margin: center; /* Remover margem padrão do parágrafo */
-  }
-  
+}
+
+/* Estilos para o título "Portfólio" */
+#portfolio {
+    text-align: center; /* Centralizar horizontalmente */
+}
+
+#portfolio .content {
+    flex: 2;
+    padding: 0 50px;
+}
+
+#portfolio h2 {
+    margin: 0; /* Remover margem padrão do título */
+}
+
+#portfolio p {
+    margin: 0; /* Remover margem padrão do parágrafo */
+}
