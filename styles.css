@@ -28,6 +28,8 @@ nav a {
     color: white;
     transition: color 0.1s;
     display: block;
+    width: 100px; /* Define a largura desejada */
+    height: 30px; /* Define a altura desejada */
     padding: 2px;
     background-color: #c03121;
     text-align: center;
