@@ -73,7 +73,7 @@ footer {
 
 /* Estilos para o título "Portfólio" */
 #portfolio {
-    text-align: center; /* Centralizar horizontalmente */
+    text-align: 0; /* Centralizar horizontalmente */
 }
 
 #portfolio .content {
