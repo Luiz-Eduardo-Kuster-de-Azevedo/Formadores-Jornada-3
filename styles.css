@@ -20,7 +20,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 5px;
-    margin: 0;
+    margin: 5px;
 }
 
 nav a {
