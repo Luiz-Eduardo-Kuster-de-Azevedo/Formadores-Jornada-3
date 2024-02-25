@@ -61,8 +61,8 @@ footer {
   color: white;
 }
 
-.horizontal-list a:hover {
-  color: #ff3300;
+//.horizontal-list a:hover {
+  //color: #ff3300;
 }
 .container-botoes {
   display: flex;
