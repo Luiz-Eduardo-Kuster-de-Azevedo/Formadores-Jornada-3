@@ -64,6 +64,10 @@ footer {
 .horizontal-list a:hover {
   color: #ff3300;
 }
+.container-botoes {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Estilos para o container das imagens */
 .image-container {
