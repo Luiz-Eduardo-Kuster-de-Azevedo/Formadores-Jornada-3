@@ -95,7 +95,7 @@ footer {
   margin: 0; /* Remover margem padrão do parágrafo */
 }
 .container-botoes button:nth-child(1) {
-  background-color: #000;
+  background-color: #f00;
 }
 
 .container-botoes button:nth-child(2) {
