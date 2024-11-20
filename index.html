@@ -4,73 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbearia Kuster</title>
+  <title>Escola Marlon Lima</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* Estilos CSS para centralizar as imagens */
-    .portfolio-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
+    /* Estilos CSS gerais */
+    .header-content img {
+      max-width: 100%; /* Impede que a imagem ultrapasse a largura do seu contêiner */
+      height: auto; /* Mantém a proporção da imagem */
     }
 
-    .portfolio-item img {
-      margin: 10px; /* Espaçamento entre as imagens */
+    /* Estilos para dispositivos móveis (quando a largura da tela é até 768px) */
+    @media (max-width: 768px) {
+      .header-content img {
+        width: 100%; /* A imagem ocupará toda a largura da tela */
+        height: auto; /* Mantém a proporção da imagem */
+      }
     }
   </style>
 </head>
 
 <body>
   <header>
-
     <div class="header-content">
-      <a href="https://www.instagram.com/barbearia_kuster" target="_blank">
-        <img src="Barbearia.jpg" alt="Barbearia Kuster Logo">
+      <!-- Link para o Instagram que abre em uma nova aba -->
+      <a href="https://www.instagram.com/marlonlimaguitarrista/" target="_blank">
+        <!-- Logo da empresa -->
+        <img src="Logo.png" alt="Marlon Lima Logo">
       </a>
     </div>
-
   </header>
+
   <main>
-    <div id="services">
-      <div class="title">
-        <h1>Nossos Serviços</h1>
-      </div>
-      <div class="description">
-        <ul>
-          <li><p>Garanta um visual moderno e estiloso.</p></li>
-          <li><p>O bem estar do cliente é a nossa satisfação.</p></li>
-          <li> <p>Atendimento na parte da manhã com horário agendado.</p></li>
-          <li><p>Confira nossos preços.</p></li>
-          </ul>
-      </div>
-    </div>
-    <div id="portfolio">
-      <div class="title">
-        <h2>Portfólio</h2>
-      </div>
-    </div>
-    <p>Exemplo do trabalho:</p>
-    <div class="portfolio-item">
-      <img src="imagem3.jpeg" width="20%" height="auto">
-      <img src="imagem2.jpeg" width="20%" height="auto">
-      <img src="imagem1.jpeg" width="20%" height="auto">
-
-      <!-- Adicione mais itens de portfólio aqui -->
-    </div>
-
-    <div id="contact">
-      <div class="title">
-        <h3>Entre em Contato</h3>
-      </div>
-      <div class="description">
-        <p>Para agendar um horário conosco, clique ou toque no logotipo da barbearia...</p>
-      </div>
-    </div>
+    <!-- Conteúdo principal da página -->
   </main>
+
   <footer>
-    <p>&copy; 2023 Barbearia Kuster</p>
+    <p>&copy; 2024 Marlon Lima</p> <!-- Copyright -->
   </footer>
+
   <script src="script.js"></script>
 </body>
 
